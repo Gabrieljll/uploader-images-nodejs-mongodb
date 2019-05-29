@@ -1,0 +1,58 @@
+        <% include partials/head%>
+<body class="signup">
+
+    <div class="container p-4 offset-md-4 animated fadeInUp">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                <div class="card-body">
+                <form action="/editing/<%=img._id%>?_method=PUT" method="POST" enctype="multipart/form-data">
+                        <input type="hidden" name="_method" value="PUT">
+                        <div class="form-group">
+                        <label class="input-name">Tipo de mascota</label>
+                        <input value="<%=img.pet%>" type="text" name="pet" placeholder=" TIPO DE MASCOTA..." class="form-control">
+                        </div>
+                            
+                         
+                        <div class="form-group">
+                        <label class="input-name">¿Qué raza es?</label>
+                        <input value="<%=img.race%>" type="text" name="race"   placeholder=" RAZA ANIMAL..." class="form-control">
+                        </div>
+                            
+                        <div class="form-group">
+                        <label class="input-name">¿Dónde fue encontrado?</label>
+                        <input value="<%=img.place%>" type="text" name="place"  placeholder=" DONDE SE ENCONTRÓ..." class="form-control">
+                        </div>
+
+                        <div class="input-group mb-3">
+                            <div class="custom-file">
+                            <input type="file" name="photo" class="custom-file-input" id="inputGroupFile02">
+                            <label class="custom-file-label" for="inputGroupFile02" aria-describedby="inputGroupFileAddon02">Sube una foto!</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea name="description" class="form-control" placeholder="Añade una descripción"><%=img.description%></textarea>
+                        </div>
+
+                        <div class="form-group">
+                        <label class="input-name">Tu medio de contacto</label>
+                        <input value="<%=img.contact%>" type="text" name="contact"  placeholder=" MEDIO DE CONTACTO" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                        <button type="submit" class="btn btn-success btn-block">Listo</button>
+                        </div>
+                        
+                        <div class="form-group">
+                        <a href="/<%=img._id %>" class="btn btn-primary ">Volver al perfil</a>
+                        </div>
+                        </div>
+                    </form>
+                    </div>
+                    <a href="/home" class="btn btn-success mt-5 btn-block">Volver al inicio</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>

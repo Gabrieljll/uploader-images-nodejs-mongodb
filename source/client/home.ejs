@@ -1,0 +1,30 @@
+<% include partials/_header %>
+<br/>
+<br/>
+<h1 class="text-center text-warning">
+    Si encuentras una mascota, no dudes en agregarla!
+    </h1>
+</div>
+
+    <div calss="container p-4">
+        <div class="row">
+            <div class="card-columns col-md-10 animated fadeInUp">
+                <% images.forEach(function (image) { %>
+                    <div class="card">
+                        <img src="<%= image.path %>" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Mascota: <%=image.pet %></h5>
+                            <p class="card-text">Raza: <%= image.race %></p>
+                            <p class="card-text">Lugar: <%= image.place %></p>
+                            <p class="card-text"><%= format(image.created_at)%></p>
+                            <a href="/<%= image._id %>" class="btn btn-primary">
+                            Ver información
+                            </a>
+                        </div>
+                    </div>
+                <% }) %>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 

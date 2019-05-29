@@ -1,0 +1,96 @@
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: 0;
+}
+
+.canning-box{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header{
+    font: 30px/30px "Lucida Grande", Tahoma, Verdana, sans-serif;
+    color: #404040;
+    background: #0ca3d2;
+    -webkit-box-shadow: 10px 10px 11px 10px rgba(0,0,0,0.81);
+    -moz-box-shadow: 10px 10px 11px 10px rgba(0,0,0,0.81);
+    box-shadow: 10px 10px 11px 10px rgba(0,0,0,0.81);
+    padding: 2rem 0;
+
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-canning-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    letter-spacing: 10px;
+    font-size: 1em;
+}
+.logo-img{
+    display: flex;
+
+    float: bottom;
+    border: 0;
+    width:90px; 
+    height:70px;
+    filter: hue-rotate(190deg) brightness(50%);
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px; 
+}
+    .navigation ul li a:hover{
+        background: #4a4a4a;
+    }
+    
+h1{
+    font-family: "Homer Simpson", cursive;
+}
+
+.container{
+    background-color: #09944f;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 0px 35px 0px;
+    -webkit-border-radius: 35px 0px 35px 0px;
+    border: 2px solid #5878ca;
+    -webkit-box-shadow: 10px 10px 11px 10px rgba(0,0,0,0.81);
+    -moz-box-shadow: 10px 10px 11px 10px rgba(0,0,0,0.81);
+    box-shadow: 10px 10px 11px 10px rgba(0,0,0,0.81);
+}
+
+.input-name{
+    font:oblique bold 200% cursive;
+    color: rgb(212, 0, 11);
+}
+
+.input-radio{
+    border-radius: 10px;
+    border:0;
+}
