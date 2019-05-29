@@ -74,11 +74,8 @@ module.exports = (app, passport) => {
     });
 
     app.put('/editing/:id', isLoggedIn, async (req, res) => {
-        const { id } = req.params;
-        const image = await imageSchema.findById(id);
-        const path = image.path;
         const { pet, race, place, contact, description } = req.body;
-        await imageSchema.findByIdAndUpdate(req.params.id, { pet, race, place, path, contact, description });
+        await imageSchema.findByIdAndUpdate(req.params.id, { pet, race, place, contact, description });
         res.redirect('/home');
 
 
