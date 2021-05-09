@@ -1,13 +1,13 @@
-Encuentra mascotas.
+Social network type website in order to upload images regarding lost pets.
 ==================
 
-Funcionalidad del proyecto
+Project functionality
 ------------------------
 
-La funcionalidad principal de este proyecto es poder hacer que las personas que extravían sus mascotas puedan tener una ayuda extra para encontrarlas. Esta aplicacion está dirigida a aquellas personas que encuentren estas mascotas y quieran colaborar para que la mascota y el dueño se reencuentren. Los dueños que buscan sus mascotas accederán a la aplicación para tratar de encontrar sus mascotas, mientras que las otras personas utilizaran la aplicación para publicar la mascota que encontraron.
+The main functionality of this project is to be able to make people who lose their pets have extra help to find them. This application is aimed at those people who find these pets and want to collaborate so that the pet and the owner meet again. Owners searching for their pets will access the app to try to find their pets, while other people will use the app to post the pet they found.
 
 ¿Cómo utilizar la aplicación?
 -----------------------------
-Solo es necesario registrarse con un email y contraseña, para luego acceder con estos datos. Una vez dentro, podrás visualizar una lista de imagenes mascotas que han sido encontradas por personas que buscan al dueño de dicha mascota (Esto en caso de que previamente hayan personas que agregaron estas mascotas).
+It is only necessary to register with an email and password, and then access with these data. Once inside, you will be able to view a list of pet images that have been found by people who are looking for the owner of said pet (This in case there are previously people who added these pets).
 
-En la parte superior se visualiza una barra de navegación la cual podrás usar en caso de que hayas encontrado una mascota y quieras colaborar. Para hacerlo solo necesitas presionar en el botón "Agregar mascota". Luego de esto solo necesitaras rellenar un formulario con una foto y toda la información que puedas brindar acerca del animal. Finalmente presionas "Listo" y volverás al menu inicial donde podrás ver tu reciente publicación.
+At the top a navigation bar is displayed which you can use in case you have found a pet and want to collaborate. To do so, you just need to click on the "Add pet" button. After this you will only need to fill out a form with a photo and all the information you can provide about the animal. Finally press "Done" and you will return to the initial menu where you can see your recent publication.
