@@ -6,7 +6,7 @@ Project functionality
 
 The main functionality of this project is to be able to make people who lose their pets have extra help to find them. This application is aimed at those people who find these pets and want to collaborate so that the pet and the owner meet again. Owners searching for their pets will access the app to try to find their pets, while other people will use the app to post the pet they found.
 
-¿Cómo utilizar la aplicación?
+¿How to use the application?
 -----------------------------
 It is only necessary to register with an email and password, and then access with these data. Once inside, you will be able to view a list of pet images that have been found by people who are looking for the owner of said pet (This in case there are previously people who added these pets).
 
